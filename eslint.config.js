@@ -11,7 +11,8 @@ export default antfu(
       'vue/block-order': ['error', {
         order: [['template', 'script'], 'style']
       }],
-      'style/comma-dangle': ['error', 'never']
+      'style/comma-dangle': ['error', 'never'],
+      'no-unused-imports': 'off'
     }
   }
 )
